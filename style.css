@@ -1,0 +1,35 @@
+* {
+    font-family: Bradley Hand, cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.love {
+    font-size: 40px;
+    text-align: center;
+    color: antiquewhite;
+    padding: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Тень для читаемости */
+    background-color: rgba(0, 0, 0, 0.4); /* Темная подложка */
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+}
+
+audio {
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+}
